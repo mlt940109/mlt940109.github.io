@@ -115,24 +115,7 @@
   </div>
 </nav>
 
-    
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  owner: '',
-  repo: '',
-  oauth: {
-    client_id: '',
-    client_secret: '',
-  },
-})
-gitment.render('gitmentContainer')
-</script>
-
-    
-      <!--MOB SHARE BEGIN-->
+    <!--MOB SHARE BEGIN-->
 <div class="-mob-share-ui-button -mob-share-open">分享</div>
 <div class="-mob-share-ui" style="display: none">
     <ul class="-mob-share-list">
@@ -162,6 +145,21 @@ gitment.render('gitmentContainer')
 <!--MOB SHARE END-->
 
     
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  owner: '',
+  repo: '',
+  oauth: {
+    client_id: '',
+    client_secret: '',
+  },
+})
+gitment.render('gitmentContainer')
+</script>
+
   
   
 </article>
